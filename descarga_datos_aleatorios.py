@@ -141,7 +141,7 @@ def fetch_all_tweets(query, max_pages=None, csv_file='cursor_data.csv'):
                 tweets_in_page = data['tweets']
                 all_tweets.extend(tweets_in_page)
                 print(f"Retrieved {len(tweets_in_page)} tweets in this page")
-                json_to_csv(tweets_in_page, 'espanol_api.csv')
+                json_to_csv(tweets_in_page, 'nombre.csv')
                 # Save the last cursor to CSV
             else:
                 print("No tweets found in this page")
@@ -276,10 +276,4 @@ for hora in range(0,24):
         search_query = f"(ser OR todos OR algo) lang:es until:{year}-06-28_{hora}:{minuto}:{segundo}_UTC since:{year}-06-28_{hora}:{minuto_prev}:{segundo}_UTC"  # Replace with your search query
         tweets = fetch_all_tweets(search_query, max_pages=100)  # Limit to 5 pages, set to None for all pages
 
-
-# Llamar a la función con la variable `tweets`
-#json_to_csv(tweets, 'orgullo_2017_bueno.csv')
-
-print("CSV generado exitosamente: tweets_data.csv")
-
-#print(tweets)
+print("CSV generado exitosamente: nombre.csv")
