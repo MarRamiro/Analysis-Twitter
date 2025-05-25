@@ -140,7 +140,7 @@ def fetch_all_tweets(query, max_pages=None, csv_file='cursor_data.csv'):
                 tweets_in_page = data['tweets']
                 all_tweets.extend(tweets_in_page)
                 print(f"Retrieved {len(tweets_in_page)} tweets in this page")
-                json_to_csv(tweets_in_page, 'orgullo_1.csv')
+                json_to_csv(tweets_in_page, 'nombre.csv')
             else:
                 print("No tweets found in this page")
 
@@ -262,9 +262,3 @@ def json_to_csv(tweet_data, csv_file):
 for year in range(2015,2025):
     search_query = f'(hetero OR heteros OR heteras OR hetera OR heterosexual OR heterosexuales OR pansexuales OR pansexual OR intersex OR interexs OR intersexual OR asexual OR asexuales OR demisexual OR demisexuales OR afeminados OR afeminado OR "no binario" OR "no binarios" OR "no binarias" OR "no binaria" OR "no binarie" OR "no binaries" OR "genero fluido" OR "disforia de genero") lang:es until:{year}-06-28_23:59:59_UTC since:{year}-06-28_00:00:01_UTC'  # Replace with your search query
     tweets = fetch_all_tweets(search_query, max_pages=None)  # Limit to 5 pages, set to None for all pages
-# Llamar a la función con la variable `tweets`
-#json_to_csv(tweets, 'orgullo_2017_bueno.csv')
-
-print("CSV generado exitosamente: tweets_data.csv")
-
-#print(tweets)
