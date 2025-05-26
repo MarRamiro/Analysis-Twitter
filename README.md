@@ -4,7 +4,7 @@ This repository contains the code used for the implementation of the Final Degre
 
 ## Project Overview
 
-The project, titled **"Hate Speech in Twitter: Analysis of LGTBIQ+ Phobia Before and After Elon Musk"**, is the first study in Spanish that analyzes the situation of LGTBIQ-phobia on Twitter following Musk’s acquisition of the platform. The study focuses on tweets in Spanish from June 28th of each year (Pride Day), ranging from 2015 to 2024. For this analysis, a dataset of 650,000 tweets related to the LGTBIQ+ community was collected. As a benchmark for comparison, a second dataset of 390,100 random tweets was collected.
+The project, titled **"Hate Speech in Twitter: Analysis of LGTBIQ-phobia Before and After Elon Musk"**, is the first study in Spanish that analyzes the situation of LGTBIQ-phobia on Twitter following Musk’s acquisition of the platform. The study focuses on tweets in Spanish from June 28th of each year (Pride Day), ranging from 2015 to 2024. For this analysis, a dataset of 650,000 tweets related to the LGTBIQ+ community was collected. As a benchmark for comparison, a second dataset of 390,100 random tweets was collected.
 
 ## Dataset Collection
 
