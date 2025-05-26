@@ -45,17 +45,17 @@ Graphs and visualizations are generated in the `graficas.ipynb` and `graficas_tr
 
 
 
-### Versión en Español:
+### Versión en español:
 
-# Discurso de odio en Twitter: Análisis de la LGTBIQ-fobia Antes y Después de Elon Musk
+# Discurso de odio en Twitter: Análisis de la LGTBIQ-fobia antes y después de Elon Musk
 
 Este repositorio contiene el código utilizado para la implementación del Trabajo de Fin de Grado en la Facultad de Informática de la Universidad Complutense de Madrid.
 
-## Visión General del Proyecto
+## Visión general del proyecto
 
-El proyecto, titulado **"Discurso de odio en Twitter: Análisis de la LGTBIQ+ Fobia Antes y Después de Elon Musk"**, es el primer estudio en español que analiza la situación de la LGTBIQ-fobia en Twitter tras la compra de la plataforma por Elon Musk. El marco temporal abarca desde 2015 hasta 2024, centrando su estudio en los tuits en español del 28 de junio de cada año (Día del Orgullo). Para este análisis, se recopiló un conjunto de datos de 650,000 tuits relacionados con la comunidad LGTBIQ+. Como punto de referencia para la comparación, también se recopiló un segundo conjunto de datos de 390,100 tuits aleatorios.
+El proyecto, titulado **"Discurso de odio en Twitter: Análisis de la LGTBIQ-fobia antes y después de Elon Musk"**, es el primer estudio en español que analiza la situación de la LGTBIQ-fobia en Twitter tras la compra de la plataforma por Elon Musk. El marco temporal abarca desde 2015 hasta 2024, centrando su estudio en los tuits en español del 28 de junio de cada año (Día del Orgullo). Para este análisis, se recopiló un conjunto de datos de 650,000 tuits relacionados con la comunidad LGTBIQ+. Como punto de referencia para la comparación, también se recopiló un segundo conjunto de datos de 390,100 tuits aleatorios.
 
-## Recopilación de Datos
+## Recopilación de datos
 
 Los conjuntos de datos se recolectaron utilizando **twitterapi.io** y el código del repositorio que comienza con `descarga_datos`. Estos conjuntos de datos incluyen:
 
@@ -64,21 +64,21 @@ Los conjuntos de datos se recolectaron utilizando **twitterapi.io** y el código
 
 Estos conjuntos de datos pueden encontrarse en el siguiente enlace: [Poyecto Zenodo](https://zenodo.org/records/15488984)
 
-## Clasificación de Toxicidad
+## Clasificación de toxicidad
 
 Los conjuntos de datos recopilados fueron clasificados utilizando la **Perspective API** para analizar el nivel de toxicidad. Este proceso de clasificación está gestionado por el código en el archivo `analisis_toxicidad.py`.
 
-## Análisis Estadístico
+## Análisis estadístico
 
 El análisis estadístico de los datos se realiza en el archivo `analisis_estadistico.ipynb`, que incluye métricas clave y comparaciones.
 
-## Gráficas y Visualizaciones
+## Gráficas y visualizaciones
 
 Las gráficas y visualizaciones se generan en los archivos `graficas.ipynb` y `graficas_trans.ipynb`, siendo este último un subanálisis relacionado con las personas trans.
 
 ---
 
-### Archivos en este Repositorio:
+### Archivos en este repositorio:
 
 1. **LICENSE**: Información de la licencia del proyecto.
 2. **README.md**: Este archivo, que proporciona una visión general del repositorio.
