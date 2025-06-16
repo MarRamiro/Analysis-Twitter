@@ -11,7 +11,7 @@ The project, titled **"Hate Speech in Twitter: Analysis of LGTBIQ-phobia Before 
 The datasets were obtained using [twitterapi.io](https://twitterapi.io/) and the code in the repository starting with `descarga_datos`. These datasets include:
 
 - **LGTBIQ+ related tweets** (653,000)
-- **Random tweets** (390,000)
+- **Random tweets** (395,000)
 
 These datasets can be found in the following link: [Zenodo poyect](https://zenodo.org/records/15488984)
 
@@ -60,7 +60,7 @@ El proyecto, titulado **"Discurso de odio en Twitter: Análisis de la LGTBIQ-fob
 Los conjuntos de datos se recolectaron utilizando [twitterapi.io](https://twitterapi.io/) y el código del repositorio que comienza con `descarga_datos`. Estos conjuntos de datos incluyen:
 
 - **Tuits relacionados con la comunidad LGTBIQ+** (653.000)
-- **Tuits aleatorios** (390.000)
+- **Tuits aleatorios** (395.000)
 
 Estos conjuntos de datos pueden encontrarse en el siguiente enlace: [Poyecto Zenodo](https://zenodo.org/records/15488984)
 
