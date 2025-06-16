@@ -4,7 +4,7 @@ This repository contains the code used for the implementation of the Final Degre
 
 ## Project Overview
 
-The project, titled **"Hate Speech in Twitter: Analysis of LGTBIQ-phobia Before and After Elon Musk"**, is the first study in Spanish that analyzes the situation of LGTBIQ-phobia on Twitter following Musk’s acquisition of the platform. The study focuses on tweets in Spanish from June 28th of each year (Pride Day), ranging from 2015 to 2024. For this analysis, a dataset of 650,000 tweets related to the LGTBIQ+ community was collected. As a benchmark for comparison, a second dataset of 390,100 random tweets was collected.
+The project, titled **"Hate Speech in Twitter: Analysis of LGTBIQ-phobia Before and After Elon Musk"**, is the first study in Spanish that analyzes the situation of LGTBIQ-phobia on Twitter following Musk’s acquisition of the platform. The study focuses on tweets in Spanish from June 28th of each year (Pride Day), ranging from 2015 to 2024. For this analysis, a dataset of 653,000 tweets related to the LGTBIQ+ community was collected. As a benchmark for comparison, a second dataset of 395,000 random tweets was collected.
 
 ## Dataset Collection
 
@@ -53,7 +53,7 @@ Este repositorio contiene el código utilizado para la implementación del Traba
 
 ## Visión general del proyecto
 
-El proyecto, titulado **"Discurso de odio en Twitter: Análisis de la LGTBIQ-fobia antes y después de Elon Musk"**, es el primer estudio en español que analiza la situación de la LGTBIQ-fobia en Twitter tras la compra de la plataforma por Elon Musk. El marco temporal abarca desde 2015 hasta 2024, centrando su estudio en los tuits en español del 28 de junio de cada año (Día del Orgullo). Para este análisis, se recopiló un conjunto de datos de 650,000 tuits relacionados con la comunidad LGTBIQ+. Como punto de referencia para la comparación, también se recopiló un segundo conjunto de datos de 390,100 tuits aleatorios.
+El proyecto, titulado **"Discurso de odio en Twitter: Análisis de la LGTBIQ-fobia antes y después de Elon Musk"**, es el primer estudio en español que analiza la situación de la LGTBIQ-fobia en Twitter tras la compra de la plataforma por Elon Musk. El marco temporal abarca desde 2015 hasta 2024, centrando su estudio en los tuits en español del 28 de junio de cada año (Día del Orgullo). Para este análisis, se recopiló un conjunto de datos de 653.000 tuits relacionados con la comunidad LGTBIQ+. Como punto de referencia para la comparación, también se recopiló un segundo conjunto de datos de 395.000 tuits aleatorios.
 
 ## Recopilación de datos
 
