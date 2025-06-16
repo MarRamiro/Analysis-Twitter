@@ -1,6 +1,6 @@
 # Hate Speech on Twitter: Analysis of LGBTIQ-phobia Before and After Elon Musk
 
-This repository contains the code used for the implementation of the Final Degree Project at the Faculty of Computer Science of the Complutense University of Madrid.
+This repository contains the code used for the implementation of the Bachelor's thesis (Trabajo de Fin de Grado) at the Faculty of Computer Science of the Complutense University of Madrid.
 
 ## Project Overview
 
@@ -39,6 +39,7 @@ Graphs and visualizations are generated in the `graficas.ipynb` and `graficas_tr
 6. **descarga_datos_colectivo.py**: Code for downloading LGTBIQ+ related tweets.
 7. **graficas.ipynb**: Notebook for generating graphs and visualizations.
 8. **graficas_trans.ipynb**: Notebook for visualizing data related to transgender individuals.
+9. **thesis.pdf**: Contains the Bachelor's thesis, detailing the research and analysis conducted.
 
 ## Instructions to Replicate the Work
 
@@ -113,7 +114,7 @@ Las gráficas y visualizaciones se generan en los archivos `graficas.ipynb` y `g
 6. **descarga_datos_colectivo.py**: Código para descargar tuits relacionados con la comunidad LGTBIQ+.
 7. **graficas.ipynb**: Notebook para generar gráficas y visualizaciones.
 8. **graficas_trans.ipynb**: Notebook para visualizar datos relacionados con personas trans.
-
+9. **thesis.pdf**: Contiene el Trabajo de Fin de Grado, detallando la investigación y análisis realizados.
 ---
 
 # Instrucciones para replicar el trabajo
