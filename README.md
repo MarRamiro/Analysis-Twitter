@@ -8,16 +8,16 @@ The project, titled **"Hate Speech in Twitter: Analysis of LGTBIQ-phobia Before 
 
 ## Dataset Collection
 
-The datasets were obtained using **twitterapi.io** and the code in the repository starting with `descarga_datos`. These datasets include:
+The datasets were obtained using [twitterapi.io](https://twitterapi.io/) and the code in the repository starting with `descarga_datos`. These datasets include:
 
-- **LGTBIQ+ related tweets** (650,000)
-- **Random tweets** (390,100)
+- **LGTBIQ+ related tweets** (653,000)
+- **Random tweets** (390,000)
 
-These datasets can be found in the following link: [Poyecto Zenodo](https://zenodo.org/records/15488984)
+These datasets can be found in the following link: [Zenodo poyect](https://zenodo.org/records/15488984)
 
 ## Toxicity Classification
 
-The collected datasets were classified using the **Perspective API** to analyze the level of toxicity. This classification process is handled by the code in the `analisis_toxicidad.py` file.
+The collected datasets were classified using the [Perspective API](https://perspectiveapi.com/) to analyze the level of toxicity. This classification process is handled by the code in the `analisis_toxicidad.py` file.
 
 ## Statistical Analysis
 
@@ -57,16 +57,16 @@ El proyecto, titulado **"Discurso de odio en Twitter: Análisis de la LGTBIQ-fob
 
 ## Recopilación de datos
 
-Los conjuntos de datos se recolectaron utilizando **twitterapi.io** y el código del repositorio que comienza con `descarga_datos`. Estos conjuntos de datos incluyen:
+Los conjuntos de datos se recolectaron utilizando [twitterapi.io](https://twitterapi.io/) y el código del repositorio que comienza con `descarga_datos`. Estos conjuntos de datos incluyen:
 
-- **Tuits relacionados con la comunidad LGTBIQ+** (650,000)
-- **Tuits aleatorios** (390,100)
+- **Tuits relacionados con la comunidad LGTBIQ+** (653.000)
+- **Tuits aleatorios** (390.000)
 
 Estos conjuntos de datos pueden encontrarse en el siguiente enlace: [Poyecto Zenodo](https://zenodo.org/records/15488984)
 
 ## Clasificación de toxicidad
 
-Los conjuntos de datos recopilados fueron clasificados utilizando la **Perspective API** para analizar el nivel de toxicidad. Este proceso de clasificación está gestionado por el código en el archivo `analisis_toxicidad.py`.
+Los conjuntos de datos recopilados fueron clasificados utilizando la [Perspective API](https://perspectiveapi.com/) para analizar el nivel de toxicidad. Este proceso de clasificación está gestionado por el código en el archivo `analisis_toxicidad.py`.
 
 ## Análisis estadístico
 
