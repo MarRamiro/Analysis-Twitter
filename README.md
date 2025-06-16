@@ -40,6 +40,31 @@ Graphs and visualizations are generated in the `graficas.ipynb` and `graficas_tr
 7. **graficas.ipynb**: Notebook for generating graphs and visualizations.
 8. **graficas_trans.ipynb**: Notebook for visualizing data related to transgender individuals.
 
+## Instructions to Replicate the Work
+
+To replicate the work, please follow these instructions:
+
+1. **Download the datasets**: 
+   - First, download the datasets from the [Zenodo poyect](https://zenodo.org/records/15639492) and place them in the same folder as the Jupyter Notebook `graficas.ipynb`.
+   - Once the datasets are downloaded, you can execute the notebook by clicking "Run All".
+
+2. **Generate specific graphs or statistical results**:
+   - If you wish to view the specific graphs for the transgender subgroup or the statistical results, the process is the same. You will just need to use the following files:
+     - `graficas_trans.ipynb` for the transgender-specific graphs.
+     - `analisis_estadistico.ipynb` for the statistical results.
+
+3. **Re-run toxicity analysis**:
+   - If you want to go further back and re-run the toxicity analysis using the [Perspective API](https://perspectiveapi.com/), you will need to request an API_KEY from Perspective API.
+   - Insert the API_KEY in the designated section of the file `analisis_toxicidad.py`.
+
+4. **Collect data from scratch**:
+   - To run the entire project from scratch, you can collect the data using the following files:
+     - `descarga_datos_aleatorios.py` for random tweets.
+     - `descarga_datos_colectivo.py` for LGTBIQ+ related tweets. 
+       - The keywords for this dataset were introduced in four blocks (since the string was too long, resulting in information loss), and this file contains the final block of the four. For more information, please contact the authors.
+   - Before running these files, make sure to register on [twitterapi.io](https://twitterapi.io/), obtain your API_KEY, and replace it in the appropriate section in the scripts.
+
+Following these steps will allow you to replicate the entire process and generate the same results and visualizations.
 
 ---
 
@@ -90,3 +115,30 @@ Las gráficas y visualizaciones se generan en los archivos `graficas.ipynb` y `g
 8. **graficas_trans.ipynb**: Notebook para visualizar datos relacionados con personas trans.
 
 ---
+
+# Instrucciones para replicar el trabajo
+
+Para replicar el trabajo, por favor siga las siguientes instrucciones:
+
+1. **Descargar los conjuntos de datos**: 
+   - En primer lugar, descarga los conjuntos de datos desde el [Poyecto Zenodo](https://zenodo.org/records/15639492) y colócalos en la misma carpeta que el Jupyter Notebook `graficas.ipynb`.
+   - Una vez descargados los datasets, puedes ejecutar el notebook haciendo clic en "Run All".
+
+2. **Generar gráficos específicos o resultados estadísticos**:
+   - Si deseas ver los gráficos específicos para el subgrupo trans o los resultados estadísticos, el procedimiento es el mismo. Solo necesitarás usar los siguientes archivos:
+     - `graficas_trans.ipynb` para los gráficos específicos del subgrupo trans.
+     - `analisis_estadistico.ipynb` para los resultados estadísticos.
+
+3. **Reejecutar el análisis de toxicidad**:
+   - Si deseas ir más atrás y reejecutar el análisis de toxicidad usando la API de Perspective, necesitarás solicitar una API_KEY de [Perspective API](https://perspectiveapi.com/).
+   - Inserta la API_KEY en la sección correspondiente del archivo `analisis_toxicidad.py` y ejecútalo para obtener los valores de toxicidad.
+
+4. **Recolectar los datos desde cero**:
+   - Para ejecutar el proyecto completo desde cero, puedes recolectar los datos usando los siguientes archivos:
+     - `descarga_datos_aleatorios.py` para tuits aleatorios.
+     - `descarga_datos_colectivo.py` para tuits relacionados con LGTBIQ+.
+       - Las palabras clave para este conjunto de datos fueron introducidas en cuatro bloques (debido a que la cadena era demasiado larga y se perdía información), y este archivo contiene el último bloque de los cuatro. Para más información, por favor contacta a los autores.
+   - Antes de ejecutar estos archivos, asegúrate de registrarte en [twitterapi.io](https://twitterapi.io/), obtener tu API_KEY y reemplazarla en la sección correspondiente de los scripts.
+
+Siguiendo estos pasos podrás replicar todo el proceso y generar los mismos resultados y visualizaciones.
+
