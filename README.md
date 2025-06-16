@@ -13,7 +13,7 @@ The datasets were obtained using [twitterapi.io](https://twitterapi.io/) and the
 - **LGTBIQ+ related tweets** (653,000)
 - **Random tweets** (395,000)
 
-These datasets can be found in the following link: [Zenodo poyect](https://zenodo.org/records/15488984)
+These datasets can be found in the following link: [Zenodo poyect](https://zenodo.org/records/15639492)
 
 ## Toxicity Classification
 
@@ -62,7 +62,7 @@ Los conjuntos de datos se recolectaron utilizando [twitterapi.io](https://twitte
 - **Tuits relacionados con la comunidad LGTBIQ+** (653.000)
 - **Tuits aleatorios** (395.000)
 
-Estos conjuntos de datos pueden encontrarse en el siguiente enlace: [Poyecto Zenodo](https://zenodo.org/records/15488984)
+Estos conjuntos de datos pueden encontrarse en el siguiente enlace: [Poyecto Zenodo](https://zenodo.org/records/15639492)
 
 ## Clasificación de toxicidad
 
